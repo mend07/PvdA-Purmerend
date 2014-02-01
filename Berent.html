@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>nativeDroid - Theme for jQuery Mobile</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		
+		<!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+		<!-- jQueryMobileCSS - original without styling -->
+        <link rel="stylesheet" href="css/jquerymobile.css" />
+
+		<!-- nativeDroid core CSS -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+
+		<!-- nativeDroid: Light/Dark -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.light.css"  id='jQMnDTheme' />
+
+		<!-- nativeDroid: Color Schemes -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.red.css" id='jQMnDColor' />
+
+		<!-- jQuery / jQueryMobile Scripts -->
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+
+    </head>
+    <body>
+        
+    <div data-role="page" data-theme='b'>
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a href="#mypanel" data-ajax="false"><i class='icon-ellipsis-vertical'></i></a>
+            <h1>PvdA Purmerend</h1>
+        </div>
+        
+        <div data-role="content">   
+	        <div class='inset'>
+	        	<h1>Berent Daan
+                <img src="pic/berenddaan.jpg" width="140" height="140" align="right"></h1>
+<h2>Wethouder Economische Zaken, Onderwijs, Sociale Zaken
+</h2>
+				<p>Berent Daan (1967, getrouwd, 2 kinderen). Sinds 1997 woon ik in Purmerend.
+
+Na acht jaar in het bedrijfsleven en vier jaar voor de landelijke PvdA te hebben gewerkt ben ik in 2006 actief geworden in de Purmerendse politiek.
+
+Een sociale en maatschappelijk betrokken houding is me van kindsaf bijgebracht. Voor mij is de politiek de plek om om het verschil te maken, om die waarden sterker te verankeren in onze samenleving.
+
+Nu voor de tweede periode ben ik wethouder voor de PvdA in Purmerend. Ik houd me vooral met onderwijs, sociale en economische zaken bezig. Als je vragen of opmerkingen hebt over onze stad of ons beleid, mail me dan.
+</p>
+	        </div>
+		</div>
+
+<!--		<div data-role="footer" class="ui-bar" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <h1 class="ui-title" role="heading" aria-level="1">Hi I'm a fixed footer.</h1>
+		</div> !-->
+
+		<div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="PvdA_Purmerend.html" data-icon="home">Home</a></li>
+					<li><a href="kandidaten.html" data-icon="user">Kandidaten</a></li>
+                    <li><a href="programma.html" data-icon="book">Programma</a></li>
+					<li><a href="twitter.html" data-icon="twitter">Twitter</a></li>
+				</ul>
+			</div>
+		</div>
+<div data-role="panel" id="mypanel" data-theme="b">
+        <ul data-role="listview">
+            <li data-role="list-divider">Menu</li>
+            <li data-icon="camera"><a href="#">Foto's</a></li>
+            <li data-icon="film"><a href="#">Video</a></li>
+            <li data-icon="comment"><a href="#">Nieuws</a></li>
+            <li data-icon="envelope"><a href="#">Contact Fractie</a></li>
+            <li data-icon="pencil"><a href="#">Contact Bestuur</a></li>
+            <li data-icon="facebook"><a href="https://www.facebook.com/pvda.purmerend?fref=ts">Facebook</a></li>
+            <li data-icon="calendar"><a href="#">Agenda</a></li>
+        </ul>
+    </div>
+
+
+    </div>
+    
+    </body>
+</html>
